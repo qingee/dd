@@ -18,15 +18,15 @@ VNC端口为``` 1``` 或者``` 5901``` ,可自行尝试连接.(成功后VNC功�
 ## 傻瓜式一键脚本
 ```
 ##镜像文件在OneDrive
-wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-od.sh && chmod +x dd-od.sh && ./dd-od.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/qingee/dd/master/dd-od.sh && chmod +x dd-od.sh && ./dd-od.sh
 
 ##镜像文件在GoogleDrive
-wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-gd.sh && chmod +x dd-gd.sh && ./dd-gd.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/qingee/dd/master/dd-gd.sh && chmod +x dd-gd.sh && ./dd-gd.sh
 
 ```
 DD debian 10示例：
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/InstallNET.sh && chmod +x InstallNET.sh && ./InstallNET.sh -d 10 -v 64 -p "自定义root密码" -port "自定义ssh端口"
+wget -N --no-check-certificate https://raw.githubusercontent.com/qingee/dd/master/InstallNET.sh && chmod +x InstallNET.sh && ./InstallNET.sh -d 10 -v 64 -p "自定义root密码" -port "自定义ssh端口"
 ```
 
 
@@ -72,12 +72,12 @@ yum update
 
 ## 快速使用示例:
 ``` 	
-bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/veip007/dd/master/InstallNET.sh') -d 8 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/qingee/dd/master/InstallNET.sh') -d 8 -v 64 -a
 ``` 
 
 ## 下载及说明:
 ``` 
-wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/dd/master/InstallNET.sh' && chmod +x InstallNET.sh
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/qingee/dd/master/InstallNET.sh' && chmod +x InstallNET.sh
 ``` 
 ```
 Usage:
@@ -177,7 +177,7 @@ bash InstallNET.sh -c 6.9 -v 64 -a --mirror 'http://mirror.centos.org/centos'
 ### GD直连获取方法
 1.下载脚本
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/DDWIN/master/gdlink.sh && chmod +x gdlink.sh && ./gdlink.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/qingee/DDWIN/master/gdlink.sh && chmod +x gdlink.sh && ./gdlink.sh
 ```
 2.使用方法
 ```
